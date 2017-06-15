@@ -3,8 +3,6 @@
         "slim/slim": "^3.8",
         "slim/twig-view": "^2.2",
         "vlucas/phpdotenv": "^2.4",
-        "doctrine/orm": "^2.5",
-        "robmorgan/phinx": "^0.8.1",
         "guzzlehttp/guzzle": "^6.2"
     },
     "autoload": {

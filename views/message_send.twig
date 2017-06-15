@@ -1,0 +1,23 @@
+{% extends 'template.twig' %}
+
+{% block title %}
+    Send Message | 
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <form method="post" action="">
+                <div class="form-group">
+                    <input type="text" name="to" class="form-control" placeholder="Receiver">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" name="message" rows="3" placeholder="Message"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary center-block">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}

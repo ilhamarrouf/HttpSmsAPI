@@ -1,5 +1,4 @@
 <?php
 
-$app->get('/', 'HomeController:index');
-
-$app->post('/send', 'App\Controllers\SmsController:send');
+$app->get('/', 'App\Controllers\SmsController:get')->setName('home');
+$app->post('/', 'App\Controllers\SmsController:post');
