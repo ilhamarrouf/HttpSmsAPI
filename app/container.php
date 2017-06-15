@@ -32,6 +32,6 @@ $container['sms'] = function ($container) {
 };
 
 ################################# Controllers #################################
-$container['HomeController'] = function ($container) {
-    return new \App\Controllers\HomeController($container);
+$container['SmsController'] = function ($container) {
+    return new \App\Controllers\SmsController($container);
 };
